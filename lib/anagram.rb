@@ -12,5 +12,5 @@ class Anagram
       # #5. Two arrays are equal if they contain the same elements, in the same order. Remember that you can .sort an arrays elements.
       (@word.split("").sort) == (element.split("").sort)
   end 
-end 
+ end 
 end 
