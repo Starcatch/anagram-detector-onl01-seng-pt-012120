@@ -8,7 +8,7 @@ class Anagram
     #1. iterate over the array of words
     array_of_words.select do |element|
       #2. compare each word of that array to the word that the Anagram class is initialized with.
-      
+      #4. Remember that you can split a word into an array of letters using some_word.split(""). You can compare two arrays using the ==
       (@word.split("").sort) == (element.split("").sort)
   end 
 end 
